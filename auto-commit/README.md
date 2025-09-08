@@ -1,6 +1,6 @@
 # Auto commit and generate messages
 
-The `.profile` file contains custom Git wrapper functions that integrate with OpenAI's GPT-4 and Anthropic's Claude to automatically generate commit messages from staged changes. Key features include:
+The `profile` file contains custom Git wrapper functions that integrate with OpenAI's GPT-4 and Anthropic's Claude to automatically generate commit messages from staged changes. Key features include:
 
 - `git ac`: Adds all files and commits with Claude-generated message
 - `git ach`: Adds all files and commits with ChatGPT-generated message  
@@ -9,7 +9,7 @@ The `.profile` file contains custom Git wrapper functions that integrate with Op
 - `git revert`: Soft reset to previous commit
 
 
-Remember to add it to your bashrc or bash_profile with:
+Remember to save it as `.profile` add it to your bashrc or bash_profile with:
 
 ´´´source ~/.profile´´´
 
